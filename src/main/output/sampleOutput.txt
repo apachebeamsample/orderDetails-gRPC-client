@@ -1,0 +1,42 @@
+response=[user {
+  accountId: "AC001"
+  userName: "user001"
+  orderIds: "ODR001"
+  orderIds: "ODR005"
+  address {
+    addressType: "Billing Address"
+    houseNumber: "HN-001"
+    phone: 234567
+  }
+  address {
+    addressType: "Delivery Address"
+    houseNumber: "HNDL-001"
+    phone: 234567
+  }
+}
+products {
+  productId: "P0001"
+  productName: "Pixel 4a"
+  price: 400
+}
+products {
+  productId: "P0004"
+  productName: "Google Home"
+  price: 500
+}
+products {
+  productId: "P0001"
+  productName: "Pixel 4a"
+  price: 400
+}
+products {
+  productId: "P0004"
+  productName: "Google Home"
+  price: 500
+}
+products {
+  productId: "P0007"
+  productName: "Google Nest Hub"
+  price: 300
+}
+]
